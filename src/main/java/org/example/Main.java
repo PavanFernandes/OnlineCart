@@ -18,14 +18,12 @@ public class Main {
             System.out.println(connection.getCatalog());
             Statement s = connection.createStatement();
 
-
-
 //            insertCustomer(s, 1,"jhon", "jhon@email");
-  //          insertCustomer(s, 2,"jane", "jane@email");
+//            insertCustomer(s, 2,"jane", "jane@email");
 //            insertProduct(s, 1, "Bread", new BigDecimal(50) );
 //            insertProduct(s, 2, "Banana", new BigDecimal(10) );
-  //          insertProduct(s, 3, "Milk", new BigDecimal(10) );
-  //          insertProduct(s, 4, "Egg", new BigDecimal(10) );
+//            insertProduct(s, 3, "Milk", new BigDecimal(10) );
+//            insertProduct(s, 4, "Egg", new BigDecimal(10) );
 //            insertOrder(s, 1, 1 , new java.sql.Date(new java.util.Date().getTime()));
 //            insertOrderItems(s,1, 1);
 //            insertOrderItems(s,1, 2);
