@@ -83,17 +83,6 @@ public class Main {
                         space + product.getString("price"));
             }
 
-            // 4. deleting customer - forgot to cascade , fails to delete the item .
-
-            //   delete(s, "products", 2);
-//            System.out.println("product id = 2 is deleted");
-//            System.out.println("\nproducts list\n");
-//            while(products.next()){
-//                System.out.println(products.getInt("id") +
-//                        space + products.getString("name") +
-//                        space + products.getString("price"));
-//            }
-
 
 
         } finally {
@@ -152,13 +141,5 @@ public class Main {
         s.executeUpdate("delete  FROM " + table + " where id = " + id);
 
     }
-
-
-
-
-
-
-
-
 
 }
